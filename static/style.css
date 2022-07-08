@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+body {
+    background: linear-gradient(rgb(216, 181, 107), green);
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    height: 50px;
+    margin: 13px 0px;
+}
+
+#welcome {
+    background-color: hsla(60, 3%, 64%, 0.726);
+    opacity: 0.6;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clear: both;
+}
+
+#welcome h3{
+    color: #1a9d0f;
+    height: auto;
+    font-size: 40px;
+    text-align: center;
+}
+
+#chat-box {
+    height: 70vh;
+    width: 60%;
+    background-color: hsl(60, 26%, 70%);
+    border: 5px solid rgb(79, 111, 122);
+    border-radius: 12px;
+    margin-bottom: 13px;
+    overflow-y: auto;
+}
+
+.msg-box {
+    min-width: 20%;
+    width: auto;
+    max-width: 50%;
+    min-height: 30px;
+    height: auto;
+    margin: 12px 4px;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    background-color: rgb(184, 171, 171);
+}
+
+.left {
+    float: left;
+    clear: both;
+    border-bottom-left-radius: 0px;
+}
+
+.right {
+    float: right;
+    clear: both;
+    border-bottom-right-radius: 0px;
+}
+
+#form {
+    /* border: 2px solid red; */
+    width: 60%;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+#msg{
+    width: 89.6%;
+    height: 42px;
+    border-radius: 6px;
+    background-color: #bdeeda;
+    padding-left: 10px;
+}
+
+#send {
+    width: 9.5%;
+    height: 42px;
+    border-radius: 6px;
+    background-color: rgb(189, 238, 218);
+}
