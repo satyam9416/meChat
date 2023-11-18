@@ -2,8 +2,8 @@ const express = require("express");
 const app = express()
 const path = require("path");
 const PORT = process.env.PORT || 3000;
-import { Server } from 'socket.io'
-import http from 'http'
+const { Server } = require('socket.io')
+const http = require('http')
 
 const server = http.createServer(app)
 // express specific stuff 
