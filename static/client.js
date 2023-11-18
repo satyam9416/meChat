@@ -1,4 +1,4 @@
-const socket = io('ws://localhost:8000');
+const socket = io('https://mechat-3m7o.onrender.com');
 const form = document.getElementById('form');
 const msg = document.querySelector('#msg');
 const chatbox = document.querySelector('#chat-box');
